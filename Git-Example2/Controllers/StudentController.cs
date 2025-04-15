@@ -14,5 +14,9 @@ namespace Git_Example2.Controllers
         {
             return Content("This is page3");
         }
+        public IActionResult Page4()
+        {
+            return Content("This is page4");
+        }
     }
 }
