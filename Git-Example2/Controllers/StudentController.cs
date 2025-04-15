@@ -9,10 +9,7 @@ namespace Git_Example2.Controllers
             return View();
         }
 
-        public IActionResult Page2()
-        {
-            return View();
-        }
+        
         public IActionResult Page3()
         {
             return Content("This is page3");
